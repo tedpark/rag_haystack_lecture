@@ -2,9 +2,9 @@ import streamlit as st
 from qna_with_rag import question, Qna, Question
 
 
-st.set_page_config(page_title="Bot")
+st.set_page_config(page_title="Rag with Streamlit", layout="wide")
 with st.sidebar:
-    st.title("Bot")
+    st.title("Rag with Streamlit")
 
 
 def generate_response(input):
