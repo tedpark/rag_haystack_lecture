@@ -76,4 +76,4 @@ def qna(qna: Qna):
     }
 
 
-# qna(Qna(context="프랑스의 수도는 파리야", question="프랑스의 수도는 어디야?"))
+qna(Qna(context="프랑스의 수도는 파리야", question="프랑스의 수도는 어디야?"))
