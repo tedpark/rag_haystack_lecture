@@ -1,6 +1,5 @@
 # pip install farm-haystack==1.17.2
 
-from haystack.nodes import RAGenerator, DensePassageRetriever
 from haystack.document_stores import FAISSDocumentStore
 from haystack.document_stores import InMemoryDocumentStore
 from haystack.nodes import BM25Retriever
@@ -76,4 +75,5 @@ def qna(qna: Qna):
     }
 
 
-qna(Qna(context="프랑스의 수도는 파리야", question="프랑스의 수도는 어디야?"))
+# qna(Qna(context="프랑스의 수도는 파리야", question="프랑스의 수도는 어디야?"))
+qna(Qna(context="승환님은 올리브영이라는 회사에 다녀", question="승환님 회사는 어디야?"))
